@@ -1,0 +1,11 @@
+.hero__car{
+    position: relative;
+
+}
+.hero__img-2{
+    position: absolute;
+    top:-200px;
+}
+.hero__img-1{
+    position: absolute;
+}

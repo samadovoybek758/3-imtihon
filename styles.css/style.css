@@ -1,0 +1,70 @@
+@import "./_header.css";
+@import "./_normalize.css";
+@import "./_poisk.css";
+
+
+
+:root{
+    --font-1:"Exo 2";
+    --font-2:"PT Sans";
+    --paragrf:rgba(107, 107, 108, 1);
+    --h1:rgba(54, 55, 56, 1)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .continer {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.link__osti{
+    width: 104px;
+    height: 3px;
+    background-color: #FFCE50;
+    margin-top: 6px;
+}
+.links a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "PT Sans";
+    text-decoration: none;
+    color: #363738;
+}
+
+@import "./header";
+@import "./poisk.scss";
+@import "./_hero.css";
+@import "./_work.css";
+@import "./work.css";
+
+
+
+@media screen and (max-width:1200px) {
+    .continer{
+        max-width: 1140px;
+    }
+}
+@media screen and (max-width:992px) {
+    .continer{
+        max-width: 960px;
+    }
+}
+@media screen and (max-width:768px) {
+    .continer{
+        max-width: 690px;
+    }
+}
+@media screen and (max-width:576px) {
+    .continer{
+        max-width: 540px;
+    }
+}
+@media screen and (max-width:500px) {
+    .continer{
+        max-width: 347px;
+    }
+}

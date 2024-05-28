@@ -1,0 +1,58 @@
+.call__continer h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--h1);
+    font-family: var(--font-1);
+    margin-top: 186px;
+    margin-bottom: 72px;
+}
+.call__calls{
+    display: flex;
+    align-items: center;
+    gap: 36.7px;
+    margin-top: 44px;
+}
+.call__calls p{
+    font-size: 14px;
+    font-family: var(--font-2);
+    color: var(--paragrf);
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.call__calls h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--h1);
+    font-family:var(--font-1)
+}
+.call__big{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+table tr{
+    display: flex;
+    gap: 56px;
+    margin-bottom: 32px;
+    max-width: 674px;
+    border-bottom: 1px solid rgba(233, 234, 242, 1);
+}
+.call__table{
+    padding: 40px 72px 56px 48px;
+    background-color: rgba(249, 249, 251, 1);
+    border-radius: 5px;
+}
+.call__table p{
+    font-size: 16px ;
+    font-weight: 400px;
+    font-family: var(--font-2);
+    color: var(--paragrf);
+}
+.call__table h5{
+    font-size: 16px ;
+    font-family: var(--font-2);
+    color: var(--h1);
+    font-weight: 600;
+    max-width: 443px;
+}

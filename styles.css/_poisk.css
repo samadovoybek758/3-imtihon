@@ -1,0 +1,107 @@
+.poisk__continer {
+    padding: 40px 122px 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 67px;
+    margin-bottom: 50px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+.poisk__continer .card {
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    
+ }
+.poisk__continer .card .poisk__img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #E9E9EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yon-chiziq{
+  width: 1px;
+  height: 261px;
+  background-color: #D7D7DD;
+}
+.poisk__continer h3{
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #363738;
+  font-family: var(--font-1);
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.poisk__continer p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: var(--font-2);
+  color: #6B6B6C;}
+
+@media screen and (max-width:768px) {
+  .poisk__continer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    
+  }
+  .yon-chiziq{
+    display: none;
+  }
+  .poisk__continer .card{
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    padding: 32px 140px 40px 32px;
+    margin-left: 10%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    
+    gap: 32px;
+  }
+  .poisk__continer h3{
+    width: 359px;
+  }
+  
+}
+@media screen and (max-width:650px) {
+  .poisk__continer .card{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    padding: 32px 140px 40px 32px;
+    margin-left: 10%;
+}
+@media screen and (max-width:500px) {
+  .poisk__continer{
+    display: flex;
+    margin-top: 56px;
+    padding: 0;
+    
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+   .poisk__continer .card{
+    max-width: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 0 0 ;
+    gap: 0;
+  }
+  .card h3{
+    max-width: 250px;
+    margin-bottom: 12px;
+  }
+  .card p{
+    max-width: 286px;
+  }
+}}
