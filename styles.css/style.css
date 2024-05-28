@@ -65,6 +65,6 @@
 }
 @media screen and (max-width:500px) {
     .continer{
-        max-width: 347px;
+        max-width: 375px;
     }
 }

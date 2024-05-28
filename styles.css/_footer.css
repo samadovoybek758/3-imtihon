@@ -4,6 +4,15 @@
     justify-content: space-between;
     
 }
+.footer__logo-2{
+    display: none;
+}
+.footer__logo-3{
+    display: none;
+}
+.footer__logo-1{
+    display: block;
+}
 .footer{
     margin: 0 auto;
     max-width: 1440px;
@@ -18,10 +27,10 @@
 .footer__tiny ul a{
     font-size: 13px;
     text-decoration: none;
-    letter-spacing: 16%;
+    letter-spacing: 1.6px;
     font-family:"Exo 2";
     color: rgba(255, 255, 255, 1);
-    font-weight: 600; 
+    font-weight: 500; 
 }
 .footer__ijtimoiy{
     display: flex;
@@ -48,13 +57,69 @@
     color: rgba(255, 255, 255, 1);
     font-family: "Open Sans";
 }
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 .end{
     margin: 50px auto;
     max-width: 374px;
     padding-bottom: 29px;
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: 15%;
+    letter-spacing: 2px;
     color: rgba(255, 255, 255, 1);
     font-family: var(--font-1);
+}
+
+@media screen and (max-width:1069px) {
+    .footer__tiny{
+        padding:59px 150px 29px 70px ;
+    }
+}
+@media screen and (max-width:890px) {
+    .footer__tiny{
+        padding:59px 100px 29px 50px ;
+    }
+}
+@media screen and (max-width:830px) {
+    .footer__tiny{
+        padding:59px 80px 29px 35px ;
+    }
+}
+@media screen and (max-width:780px) {
+    .footer__tiny ul a{
+        font-size: 8px;
+        font-weight: 500; 
+    }
+    .footer__tiny{
+        padding: 30px 123px 0 35px;
+    }
+    .footer__ijtimoiy button p{
+        font-size: 6px;
+    }
+    .footer__logo-1{
+        display: none;
+    }
+    .footer__logo-2{
+        display: block;
+    }
+    .footer__logo-3{
+        display: none;
+    }
+    .footer__tiny ul{
+        gap: 13px;
+    }
+    .end{
+        font-size: 10px;
+    }
+}
+@media screen and(max-width:500px) {
+    .footer__tiny{
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
 }
