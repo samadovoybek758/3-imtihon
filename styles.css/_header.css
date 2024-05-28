@@ -46,6 +46,7 @@
         flex-direction: column;
         gap: 73px;
         justify-content: center;
+        box-shadow: none;
     }
     .header__continer h1{
         text-align: center;

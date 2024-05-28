@@ -5,3 +5,33 @@
     margin-bottom: 166px;
     max-width: 1245px;
 }
+.big__car-1{
+    display: block;
+}
+.big__car-2{
+    display: none;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.big__car-3{
+    display: none;
+}
+.big__car-4{
+    display: none;
+}
+@media screen and (max-width:1245px) {
+    .big__car-1{
+        display: none;
+    }
+    .big__car-2{
+        display: block;
+    }
+}
+@media screen and (max-width:1000px) {
+    .big__car-3{
+        display: block;
+    }
+    .big__car-2{
+        display: none;
+    }
+}

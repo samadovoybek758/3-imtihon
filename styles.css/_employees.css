@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     margin-top: 24px;
-    gap: 30px;
+    justify-content: space-between;
 }
 .employees__card{
     width: 554px;
@@ -22,16 +22,6 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
-/* .employees__card::before{
-    width: 200px;
-   
-    height: 210px;
-    color: rgba(11, 117, 114, 1);
-    border-radius: 10px 0 0 10px;
-    left: -200px;
-} */
-
-
 .employees__card h4{
     font-size: 20px;
     font-weight: 600;
@@ -40,14 +30,91 @@
     margin-top: 15px;
     margin-bottom: 12px;
 }
+
 .employees__link{
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 31px;
 }
+.employees__link a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "PT Sans";
+    text-decoration: none;
+    color: rgb(12, 12, 131);
+}
 .employees__ijtimoiy{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media screen and (max-width:996px) {
+    .employees__card{
+        max-width: 390px;
+    }
+}
+@media screen and (max-width:768px) {
+    .employees__card{
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .employees_big-card-3{
+        display: none;
+    }
+    .employees__continer h1{
+        width: 100%;
+        max-width: 600px;
+    }
+    .employees__card h4{
+        width: 200px;
+        
+    }
+    .employees__card a{
+        width: 200px;
+        
+    }
+}
+@media screen and (max-width:600px) {
+    .employees__card{
+        max-width: 300px;
+        
+    }
+    .employees__continer h1{
+        width: 300px;
+    }
+    .employees__continer h1{
+        width: 100%;
+        font-size: 44px;
+        max-width: 500px;
+    }
+}
+@media screen and (max-width:500px) {
+    .employees__card{
+        max-width: 380px;
+        display: flex;
+        flex-direction: row;
+        padding: 24px 28px 32px 24px;
+        border-left: 20px solid rgba(11, 117, 114, 1);
+    }
+    .employees_big-card{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .employees__continer h1{
+        font-size: 28px ;
+        max-width: 345px;
+        font-family: var(--font-2);
+        margin-bottom: 32px;
+    }
+    .employees_big-card-4{
+        display: none;
+    }
+    .employees_big-card-3{
+        display: none;
+    }
 }

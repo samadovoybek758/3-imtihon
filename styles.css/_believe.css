@@ -14,8 +14,17 @@
 }
 .believe__cards{
     display: flex;
+    max-width: 184px;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
+   
+}
+.believe__cards-min{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 .believe__card{
     display: flex;
@@ -41,4 +50,22 @@
     font-weight: 400;
     font-family: var(--font-1);
     color: var(--paragrf);
+}
+@media screen and (max-width:768px) {
+    .believe__cards{
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+    .yon_chiziq-2{
+        display: none;
+    }
+    .believe__card{
+        padding: 0 auto;
+        display: flex;
+        max-width: 188px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
