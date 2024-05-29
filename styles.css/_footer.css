@@ -117,13 +117,11 @@
 }
 @media screen and (max-width:550px) {
     .footer__tiny{
-        padding:59px 100px 29px 70px ;
+        padding:59px 100px 29px 70px;
     }
 }
 @media screen and(max-width:500px){
-    .footer__tiny{
-       
-        display: flex;
+    .footer__tiny{display: flex;
         flex-direction: column;
     }
 }

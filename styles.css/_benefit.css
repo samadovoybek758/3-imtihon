@@ -1,22 +1,31 @@
 .benefit__container {
     padding: 178px 0 166.5px 90px;
-    /* background-image: url(./../imgs/why1-t.png), url(./../images/section-3.1.png); */
+    background-image: url(../images/fon-2.png), url(../images/fon-1.png);
     background-repeat: no-repeat;
+    background-position: 43%,  50%;
     margin-bottom: 73px;
     
   }
 .benefit__container h1{
      color: white;
      width: 362px;
+     margin-left: 36%;
 }
 
-
+@media screen and(max-width:900px) {
+  .benefit__container{
+    background-position: 38%,50%;
+  }
+  .benefit__container h1{
+    margin-right: 30%;
+  }
+}
 
 
   @media (max-width: 768px) {
     .benefit__container {
       padding: 112px 0 106px 85px;
-      /* background-image: url(./../imgs/why1-t.png), url(./../images/section-3.1.png); */
+      background-image: url(../images/fon-3.png), url(../images/fon-4.png);
       
     }
     h1{
@@ -35,6 +44,13 @@
         color: black;
     }
   }
+  .benefit-icon-2{
+    display:none;
+  }
+  .benefit-icon-1{
+    display:block;
+  }
+
 .benefit__bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -93,6 +109,12 @@
     }
     .benefit__icon {
         width: 52px;
+    }
+    .benefit-icon-2{
+      display:block;
+    }
+    .benefit-icon-1{
+      display: none;
     }
   }
   

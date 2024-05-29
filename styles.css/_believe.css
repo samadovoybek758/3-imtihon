@@ -69,3 +69,8 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width:560px) {
+    .believe__continer{
+        max-width: 400px;
+    }
+}
