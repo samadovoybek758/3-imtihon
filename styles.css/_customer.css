@@ -66,13 +66,29 @@ td{
     }
 }
 @media screen and (max-width:690px) {
-    .customer_table{
-        max-width: 400px;
+    
+    .customer__continer{
+        padding:32px 15px;
+        
     }
 }
 @media screen and (max-width:500px) {
     .table-2{
         display: none;
     }
-    
+    .customer__continer{
+        padding:32px 15px;
+        
+    }
+    .table-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .table.dfsdf{
+        display: flex;
+        gap: 16px;
+    }
+    .table-p{
+        display: none;
+    }
 }

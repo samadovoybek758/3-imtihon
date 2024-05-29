@@ -77,4 +77,10 @@
     .big__car-5{
         display: none;
     }
+    .bigcar__photo{
+        margin-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25.5px;
+    }
 }
