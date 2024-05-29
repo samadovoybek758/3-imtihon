@@ -1,7 +1,10 @@
 .header__continer {
     display: flex;
     margin-top: 109px;
-    margin-bottom: 67px;
+    margin-bottom: 200px;
+  }
+  .header__continer img{
+      margin-bottom: 67px;
   }
   
   .header__continer-left h1 {

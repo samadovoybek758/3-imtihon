@@ -2,22 +2,24 @@
     padding: 178px 0 166.5px 90px;
     background-image: url(../images/fon-2.png), url(../images/fon-1.png);
     background-repeat: no-repeat;
-    background-position: 43%,  50%;
+    /* background-position: 43%,  50%; */
     margin-bottom: 73px;
-    
+    margin: 73px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 .benefit__container h1{
      color: white;
      width: 362px;
-     margin-left: 36%;
+     /* margin-left: 36%; */
 }
 
 @media screen and(max-width:900px) {
   .benefit__container{
-    background-position: 38%,50%;
+    /* background-position: 35%,50%; */
   }
   .benefit__container h1{
-    margin-right: 30%;
+    /* margin-right: 30%; */
   }
 }
 
