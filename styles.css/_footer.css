@@ -117,11 +117,32 @@
 }
 @media screen and (max-width:550px) {
     .footer__tiny{
-        padding:59px 100px 29px 70px;
+        padding:59px 100px 0px 70px;
+        flex-direction: column;
+    }
+    .footer__list{
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+    }
+    .footer__ijtimoiy div{
+        margin-bottom: 60px;
+    }
+    .footer__ijtimoiy button{
+        padding: 8px 14px 8px 60px;
+    }
+    .button__p{
+        font-size: 28px;
+
+    }
+    .end{
+        margin-top: 16px;
     }
 }
 @media screen and(max-width:500px){
-    .footer__tiny{display: flex;
+    .footer{
+        display: flex;
         flex-direction: column;
+        background-color: black;
     }
 }
