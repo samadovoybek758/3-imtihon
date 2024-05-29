@@ -7,14 +7,17 @@
     margin-top: 120px;
 }
 .believe__big-card{
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     gap: 71px;
+    justify-content: space-around;
     margin: 0 128px 0 46px;
 }
 .believe__cards{
     display: flex;
     max-width: 184px;
+    gap: 50px;
     align-items: center;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +46,7 @@
     font-weight: 600;
     font-family: var(--font-2);
     color: var(--h1);
+    text-align: center;
     margin-bottom: 14px;
 }
 .believe__card p{
@@ -67,6 +71,11 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .believe__big-card{
+        justify-content: center;
+        align-items: center;
+        
     }
 }
 @media screen and (max-width:560px) {
