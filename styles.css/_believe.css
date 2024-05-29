@@ -73,4 +73,34 @@
     .believe__continer{
         max-width: 400px;
     }
+    .believe__cards-2{
+        display: none;
+    }
+    .believe__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .believe__cards-min{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        max-width: 300px;
+    }
+    .believe__cards{
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .believe__card h1{
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+    .believe__big-card{
+        display: flex;
+        justify-content: space-between;
+    }
 }
